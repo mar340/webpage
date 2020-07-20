@@ -26,13 +26,22 @@
  		 gtag('config', 'UA-172984195-1');
 		</script>
 
+<!--Below text changes the style of the paragraph below - pads (think of it as changing the internal margin of the text) the paragraph using the p.ex1 when applied to class later on; and .img-container, which allowed me to center the image below -->
+<style>
+p.ex1 {
+  padding: 35px 70px;
+}
 
+.img-container {
+        text-align: center;
+      }
+</style>
 		
 	</head>
 	<body class="is-preload">
 
 		<!-- Wrapper -->
-			<div id="wrapper">
+			<!--<div id="wrapper"> -->
 
 				<!-- Header -->
 					<header id="header">
@@ -46,32 +55,39 @@
 							</div>
 						</div>
 					</header>
-</div>
+<!-- </div> -->
 
-<blockquote>
-	<p>I hope to use this medium to talk about my journey through neuroscience, to share the things I've learned including building your CV, reaching out for mentorship, applying for grants, building posters, and thinking about how to use neuroscience as a tool for social justice and anti-colonial work.</p>
-	<p>I'll also share resources that have been shared with me, talk about experiences I've had in programs that I've applied to and been accepted into, and about the non-academic work I've engaged in at Boston University over the last few years.</p>
-</blockquote>
+
+	<p class="ex1">I hope to use this medium to talk about my journey through neuroscience, to share the things I've learned including building your CV, reaching out for mentorship, applying for grants, building posters, and thinking about how to use neuroscience as a tool for social justice and anti-colonial work. 
+<br>
+	I'll also share resources that have been shared with me, talk about experiences I've had in programs that I've applied to and been accepted into, and about the non-academic work I've engaged in at Boston University over the last few years.
+
+
 
   
 
   
+  <!--this div style text align center lets me change the alignment of everything within the div -->
+
   
+  <div style="text-align: center;">
   
-  
-				<!-- Featured Post -->
+				<!-- Blog Post -->
+
+
 									<section class="post featured">
-								<article>
 									<header>
 										<span class="date">July 20, 2020</span>
 										<h2><a href="journey.html">Journey to Neuroscience</a></h2>
 									</header>
-									<a href="journey.html" class="image fit"><img src="images/" alt="" /></a>
-									<p>I have a pretty non-traditional journey towards working on a phd in neuroscience...</p>
+								<div class="img-container">
+									<img src="images/my_brain.gif" style="width:300px;height:375px; alt="gif of my brain" />
+								</div>
+									<p class="ex1">I have a pretty non-traditional journey towards working on a phd in neuroscience...</p>
 									<ul class="actions special">
 										<li><a href="journey.html" class="button">Read More</a></li>
 									</ul>
-								</article>
+</div>		
 
 						<!-- Posts --
 						
@@ -92,7 +108,6 @@
 
   
   
-  
 								</body>
   <!-- Contact -->
 							<article id="contact">
@@ -100,6 +115,7 @@
 								<ul class="icons">
 									<li><a href="https://twitter.com/michaelrosar340" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
 									<li><a href="https://www.linkedin.com/in/michaelrosario340/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+									<li><a href="mar340@bu.edu" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
 								</ul>
 
 
